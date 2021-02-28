@@ -1,0 +1,30 @@
+h1 {
+  width: auto;
+  font-size: 24;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 12px;
+  color: antiquewhite;
+
+}
+
+body {
+  background-image: url('background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+.h3{
+  font-size: 16;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: blueviolet;
+}
+ #magic-btn {
+  border-radius: 11px;
+  font-size: 14px;
+  border: 5px aquamarine;
+  font: 1em sans-serif;
+
+ }
+

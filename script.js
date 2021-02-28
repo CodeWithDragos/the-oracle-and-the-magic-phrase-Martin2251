@@ -10,3 +10,9 @@ function displayMagicPhrase() {
 
 // Attach event listener to the magi button
 generateBtn.addEventListener("click", displayMagicPhrase);
+
+    const magic = document.getElementById("magic-btn");
+ magic.addEventListener('click', (event) => {
+  // Callback
+  event.currentTarget.innerText = 'fake news';
+  });
