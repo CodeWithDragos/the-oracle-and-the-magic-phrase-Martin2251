@@ -11,8 +11,11 @@ function displayMagicPhrase() {
 // Attach event listener to the magi button
 generateBtn.addEventListener("click", displayMagicPhrase);
 
-    const magic = document.getElementById("magic-btn");
- magic.addEventListener('click', (event) => {
-  // Callback
-  event.currentTarget.innerText = 'fake news';
-  });
+document.querySelector("magic");
+
+    - do I like to do sports
+    - do I like to make puzzles
+    - do I like pets
+    - do I like pizza
+    - do I like to draw or to read
+   am I a morning person or a evening one
