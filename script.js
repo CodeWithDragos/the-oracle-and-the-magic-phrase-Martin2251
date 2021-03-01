@@ -1,9 +1,23 @@
-// Use the skeleton bellow as a basis for your script
-var generateBtn = document.querySelector("#magic-btn");
+const generateBtn = document.querySelector("#magic-btn");
+
+function makeSomeMagic() {
+  const likesSports = confirm("Do you like to do sports?");
+  const likesPuzzles = confirm("Do you like to make puzzles?");
+  const likesPets = confirm("Do you like pets?");
+  const likesPizza = confirm("Do you like pizza?");
+  const likesMusic =confirm("Do you like music ?");
+  const likesChocolate = confirm("Do you like Chocolate?");
+
+ if likesSports & likePuzzles & likesPets & likesPizza & likesMusic & likesChocolatelikesSports & likesPets & likesSports
+
+ else
+
+
+}
 
 function displayMagicPhrase() {
-  var magicPhrase = makeSomeMagic();
-  var magicPhraseDisplay = document.querySelector("#magic-phrase");
+  const magicPhrase = makeSomeMagic();
+  const magicPhraseDisplay = document.querySelector("#magic-phrase");
 
   magicPhraseDisplay.value = magicPhrase;
 }
@@ -11,11 +25,3 @@ function displayMagicPhrase() {
 // Attach event listener to the magi button
 generateBtn.addEventListener("click", displayMagicPhrase);
 
-document.querySelector("magic");
-
-    - do I like to do sports
-    - do I like to make puzzles
-    - do I like pets
-    - do I like pizza
-    - do I like to draw or to read
-   am I a morning person or a evening one
