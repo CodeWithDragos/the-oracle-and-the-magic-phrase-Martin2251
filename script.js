@@ -4,7 +4,7 @@ function makeSomeMagic() {
   const likesSports = confirm("Do you like to do sports?");
   const likesPuzzles = confirm("Do you like to make puzzles?");
   const likesPets = confirm("Do you like pets?");
-  const likesPizza = confirm("Do you like piza?");
+  const likesPizza = confirm("Do you like pizza?");
 
   if (likesPuzzles && !likesSports && !likesPets && likesPizza) {
     return "You will make a great developer my friend. Just keep on coding!";
