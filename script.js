@@ -1,13 +1,13 @@
 // Use the skeleton bellow as a basis for your script
-var generateBtn = document.querySelector("#magic-btn");
+const generateBtn = document.querySelector("#magic-btn");
 
 function makeSomeMagic() {
-  var youLikeComputers = confirm("Do you like computers?");
-  var youLikeSport = confirm("Do you like to do sports?");
-  var youLikePuzzles = confirm("Do you like to solve puzzles?");
-  var youLikePets = confirm("Do you love pets?");
-  var youLikePizza = confirm("Do you eat Pizza?");
-  var youlikeDancing = confirm("Do you like Dancing?");
+  let youLikeComputers = confirm("Do you like computers?");
+  let youLikeSport = confirm("Do you like to do sports?");
+  let youLikePuzzles = confirm("Do you like to solve puzzles?");
+  let youLikePets = confirm("Do you love pets?");
+  let youLikePizza = confirm("Do you eat Pizza?");
+  let youlikeDancing = confirm("Do you like Dancing?");
 
   if (
     youLikeComputers &&
@@ -24,8 +24,8 @@ function makeSomeMagic() {
 }
 
 function displayMagicPhrase() {
-  var magicPhrase = makeSomeMagic();
-  var magicPhraseDisplay = document.querySelector("#magic-phrase");
+  let magicPhrase = makeSomeMagic();
+  let magicPhraseDisplay = document.querySelector("#magic-phrase");
 
   magicPhraseDisplay.value = magicPhrase;
 }
