@@ -1,59 +1,83 @@
-h1 {
-  width: auto;
-  font-size: 24;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 12px;
-  color: antiquewhite;
-
-}
-
 body {
-  background-image: url('background.jpg');
-  background-attachment: flex;
-  background-size: cover;
-
+  background-color: #eaecee;
 }
 
-.magic-box {
+h1,
+h3,
+p,
+textarea,
+button {
+font-family: 'DotGothic16',
+sans-serif;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.oracle-title {
+  text-align: center;
+  color: #82589f;
+  padding: 1.5rem;
+}
+
+.oracle-title h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 48px;
+}
+
+.oracle-box {
   font-size: 1.2rem;
   padding: 2rem;
   border-radius: 6px;
   border-width: 1px;
-  color: #f1f1f1;
+  color: #a372fd;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px 0px;
   margin: 0 auto;
   max-width: 900px;
 }
 
-.container {
-background-color: antiquewhite;
-
-
+.content {
+  min-height: 150px;
 }
 
-
-h3{
-  font-size: 16px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
+.oracle-row {
+  text-align: center;
 }
 
-.btn-gradient {
-  color: white;
-  padding: 8px 24px;
-  border-radius: 4px;
-  font-weight: bold;
-  background: linear-gradient(#167FFB, #0F60C4);
-  transition: background 0.3s ease;
-  border: 1px solid #0F60C4;
+#magic-btn {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: rgb(0, 255, 0);
+  color: #f7eded;
+  border-radius: 1rem;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
 }
 
-.btn-gradient:hover {
-  background: linear-gradient(#147EFF, #0F67DA);
-  color: white;
+#magic-btn:hover {
+  background-color: #f7eded;
+  color: orange;
 }
 
-p {
-color: white
+.phrase {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 1rem 1rem 5rem 1rem;
+  margin: 1rem 0.5rem;
+  border: 1px dashed #f7eded;
+  border-radius: 6px;
+  overflow: hidden;
+  border-radius: 6px;
+  display: block;
+}
 
+footer>p {
+  font-style: italic;
 }
